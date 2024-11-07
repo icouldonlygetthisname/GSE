@@ -13,9 +13,6 @@
 /cast [combat] Thrash 
 
 /startattack [@playertarget,exists]
-/cast [combat] Incarnation: Guardian of Ursoc 
-
-/startattack [@playertarget,exists]
 /cast [combat] Mangle 
 
 /startattack [@playertarget,exists]
