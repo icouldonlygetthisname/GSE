@@ -1,0 +1,139 @@
+## ST
+
+## Opener
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Tiger Palm 
+
+/stopmacro [@playertarget,noexists,nocombat] 
+/cast [nochanneling,combat]Rising Sun Kick
+
+/stopmacro [@playertarget,noexists,nocombat] 
+/cast [nochanneling,combat] Tiger Palm
+
+/stopmacro [@playertarget,noexists,nocombat] 
+/cast [nochanneling,combat] Invoke Xuen, the White Tiger
+/petattack [combat]
+
+/stopmacro [@playertarget,noexists,nocombat] 
+/cast [nochanneling,combat] Storm, Earth, and Fire
+
+/stopmacro [@playertarget,noexists,nocombat] 
+/cast [nochanneling,combat] Rising Sun Kick
+
+/stopmacro [@playertarget,noexists,nocombat] 
+/cast [nochanneling,combat] Strike of the Windlord
+
+/stopmacro [@playertarget,noexists,nocombat] 
+/cast [nochanneling,combat] Tiger Palm
+
+/stopmacro [@playertarget,noexists,nocombat] 
+/cast [nochanneling,combat] Fists of Fury
+
+/stopmacro [@playertarget,noexists,nocombat] 
+/cast [nochanneling,combat] Rising Sun Kick
+
+/stopmacro [@playertarget,noexists,nocombat] 
+/cast [nochanneling,combat] Whirling Dragon Punch
+
+## Rotation
+
+/stopmacro [@playertarget,noexists,nocombat] 
+/cast [nochanneling,combat] Tiger Palm
+
+/stopmacro [@playertarget,noexists,nocombat] 
+/cast [nochanneling,combat] Strike of the Windlord
+
+/stopmacro [@playertarget,noexists,nocombat] 
+/cast  [nochanneling,combat] Whirling Dragon Punch
+
+/stopmacro [@playertarget,noexists,nocombat] 
+/cast  [nochanneling,combat]Rising Sun Kick
+
+/stopmacro [@playertarget,noexists,nocombat] 
+/cast  [nochanneling,combat] Fists of Fury
+
+/stopmacro [@playertarget,noexists,nocombat] 
+/cast  [nochanneling,combat] Blackout Kick
+
+/stopmacro [@playertarget,noexists,nocombat] 
+/cast  Spinning Crane Kick
+
+/stopmacro [@playertarget,noexists,nocombat] 
+/cast  [nochanneling,combat] Chi Burst
+
+/stopmacro [@playertarget,noexists,nocombat] 
+/cast  [nochanneling,combat] Blackout Kick
+
+##AOE
+
+## Opener
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Tiger Palm 
+
+/startattack [@playertarget,exists]
+/cast [nochanneling,combat]Rising Sun Kick
+
+/startattack [@playertarget,exists]
+/cast [nochanneling,combat] Tiger Palm
+
+/startattack [@playertarget,exists]
+/cast [nochanneling,combat] Invoke Xuen, the White Tiger
+/petattack [combat]
+
+/startattack [@playertarget,exists]
+/cast [nochanneling,combat] Storm, Earth, and Fire
+
+/startattack [@playertarget,exists]
+/cast [nochanneling,combat] Rising Sun Kick
+
+/startattack [@playertarget,exists] 
+/cast [nochanneling,combat] Strike of the Windlord
+
+/startattack [@playertarget,exists]
+/cast [nochanneling,combat] Tiger Palm
+
+/startattack [@playertarget,exists]
+/cast [nochanneling,combat] Fists of Fury
+
+/startattack [@playertarget,exists] 
+/cast [nochanneling,combat] Rising Sun Kick
+
+/startattack [@playertarget,exists]
+/cast [nochanneling,combat] Whirling Dragon Punch
+
+## Rotation
+
+/startattack [@playertarget,exists]
+/cast  [nochanneling,combat] Tiger Palm 
+
+/startattack [@playertarget,exists]
+/cast  [nochanneling,combat] Spinning Crane Kick 
+
+/startattack [@playertarget,exists]
+/cast  [nochanneling,combat] Rising Sun Kick
+
+/startattack [@playertarget,exists]
+/cast  [nochanneling,combat] Whirling Dragon Punch
+
+/startattack [@playertarget,exists]
+/cast  [nochanneling,combat] Strike of the Windlord
+
+/startattack [@playertarget,exists]
+/cast  [nochanneling,combat] Fists of Fury
+
+/startattack [@playertarget,exists]
+/cast  [nochanneling,combat] Rising Sun Kick
+
+/startattack [@playertarget,exists]
+/cast  [nochanneling,combat] Spinning Crane Kick
+
+/startattack [@playertarget,exists]
+/cast  [nochanneling,combat] Chi Burst
+
+/startattack [@playertarget,exists]
+/cast  [nochanneling,combat] Blackout Kick
+
