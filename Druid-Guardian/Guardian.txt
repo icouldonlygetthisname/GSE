@@ -1,0 +1,166 @@
+## Opener ST
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast Growl
+ 
+/cast Heart of the Wild 
+
+/startattack [@playertarget,exists]
+/cast Moonfire 
+
+/startattack [@playertarget,exists]
+/cast [combat] Thrash 
+
+/startattack [@playertarget,exists]
+/cast [combat] Incarnation: Guardian of Ursoc 
+
+/startattack [@playertarget,exists]
+/cast [combat] Mangle 
+
+/startattack [@playertarget,exists]
+/cast [combat] Thrash 
+
+/startattack [@playertarget,exists]
+/cast [combat] Rage of the Sleeper
+
+/startattack [@playertarget,exists]
+/cast [combat] Maul
+
+/startattack [@playertarget,exists]
+/cast [combat] Maul
+
+/startattack [@playertarget,exists]
+/cast [combat] Maul 
+
+/startattack [@playertarget,exists]
+/cast [combat] Mangle 
+
+/startattack [@playertarget,exists]
+/cast [combat] Thrash 
+/cast [combat] Maul 
+
+/startattack [@playertarget,exists]
+/cast [combat] Maul 
+
+/startattack [@playertarget,exists]
+/cast [combat] Maul 
+
+/startattack [@playertarget,exists]
+/cast [combat] Mangle 
+
+## ST Rotation 
+
+/startattack [@playertarget,exists]
+/cast [combat] Thrash
+
+/startattack [@playertarget,exists]
+/cast [combat] Maul 
+
+/startattack [@playertarget,exists]
+/cast [combat] Mangle 
+
+/startattack [@playertarget,exists]
+/cast [combat] Thrash
+
+/startattack [@playertarget,exists]
+/cast [combat] Moonfire
+
+/startattack [@playertarget,exists]
+/cast [combat] Thrash
+
+/startattack [@playertarget,exists]
+/cast [combat] Swipe
+
+### AOE Opener
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast Moonfire
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Barkskin
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Thrash
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Mangle
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Mangle
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Thrash
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Mangle
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Mangle
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Raze
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Thrash
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Mangle
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Mangle
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Raze
+
+### AOE Rotation
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Thrash
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Mangle
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Mangle
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Raze
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Thrash
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Mangle
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Mangle
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Moonfire
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Swipe
+
