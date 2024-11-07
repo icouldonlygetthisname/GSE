@@ -13,10 +13,6 @@
 /cast [nochanneling,combat] Tiger Palm
 
 /stopmacro [@playertarget,noexists,nocombat] 
-/cast [nochanneling,combat] Invoke Xuen, the White Tiger
-/petattack [combat]
-
-/stopmacro [@playertarget,noexists,nocombat] 
 /cast [nochanneling,combat] Storm, Earth, and Fire
 
 /stopmacro [@playertarget,noexists,nocombat] 
@@ -79,10 +75,6 @@
 
 /startattack [@playertarget,exists]
 /cast [nochanneling,combat] Tiger Palm
-
-/startattack [@playertarget,exists]
-/cast [nochanneling,combat] Invoke Xuen, the White Tiger
-/petattack [combat]
 
 /startattack [@playertarget,exists]
 /cast [nochanneling,combat] Storm, Earth, and Fire
