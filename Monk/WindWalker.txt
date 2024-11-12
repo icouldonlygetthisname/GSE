@@ -7,7 +7,7 @@
 /cast [combat] Tiger Palm 
 
 /stopmacro [@playertarget,noexists,nocombat] 
-/cast [nochanneling,combat]Rising Sun Kick
+/cast [nochanneling,combat] Rising Sun Kick
 
 /stopmacro [@playertarget,noexists,nocombat] 
 /cast [nochanneling,combat] Tiger Palm
