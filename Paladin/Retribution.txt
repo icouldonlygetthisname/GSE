@@ -6,15 +6,49 @@
 /startattack [@playertarget,exists]
 /cast [combat] Blade of Justice
 
-/targetenemy [noharm,dead,nocombat]
-/startattack [@playertarget,exists]
+/stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Execution Sentence
 
-/targetenemy [noharm,dead,nocombat]
-/startattack [@playertarget,exists]
+/stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Wake of Ashes
+
+/stopmacro [@playertarget,noexists,nocombat] 
+/cast [combat] Hammer of Light
+
+## Rotation
+
+/stopmacro [@playertarget,noexists,nocombat] 
+/cast [combat] Execution Sentence
+
+/stopmacro [@playertarget,noexists,nocombat] 
+/cast [combat] Hammer of Light
+
+/stopmacro [@playertarget,noexists,nocombat]
+cast [combat] Final Verdict
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Blade of Justice
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Wake of Ashes
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Divine Toll
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Judgment
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Blade of Justice
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Hammer of Wrath
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Final Verdict
+
+## AOE 
 
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
-/cast [combat] Hammer of Light
 

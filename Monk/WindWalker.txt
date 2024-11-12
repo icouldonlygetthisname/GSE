@@ -133,4 +133,3 @@
 
 /startattack [@playertarget,exists]
 /cast [nochanneling,combat] Blackout Kick
-
