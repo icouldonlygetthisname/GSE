@@ -45,7 +45,7 @@
 /cast  [nochanneling,combat] Whirling Dragon Punch
 
 /stopmacro [@playertarget,noexists,nocombat] 
-/cast  [nochanneling,combat]Rising Sun Kick
+/cast  [nochanneling,combat] Rising Sun Kick
 
 /stopmacro [@playertarget,noexists,nocombat] 
 /cast  [nochanneling,combat] Fists of Fury
