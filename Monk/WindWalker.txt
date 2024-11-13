@@ -68,7 +68,7 @@
 
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
-/cast [combat] Tiger Palm 
+/cast [nochanneling,combat] Tiger Palm 
 
 /startattack [@playertarget,exists]
 /cast [nochanneling,combat] Rising Sun Kick
@@ -106,26 +106,26 @@
 /cast [nochanneling,combat] Spinning Crane Kick 
 
 /startattack [@playertarget,exists]
-/cast  [nochanneling,combat] Rising Sun Kick
+/cast [nochanneling,combat] Rising Sun Kick
 
 /startattack [@playertarget,exists]
-/cast  [nochanneling,combat] Whirling Dragon Punch
+/cast [nochanneling,combat] Whirling Dragon Punch
 
 /startattack [@playertarget,exists]
-/cast  [nochanneling,combat] Strike of the Windlord
+/cast [nochanneling,combat] Strike of the Windlord
 
 /startattack [@playertarget,exists]
-/cast  [nochanneling,combat] Fists of Fury
+/cast [nochanneling,combat] Fists of Fury
 
 /startattack [@playertarget,exists]
-/cast  [nochanneling,combat] Rising Sun Kick
+/cast [nochanneling,combat] Rising Sun Kick
 
 /startattack [@playertarget,exists]
-/cast  [nochanneling,combat] Spinning Crane Kick
+/cast [nochanneling,combat] Spinning Crane Kick
 
 /startattack [@playertarget,exists]
-/cast  [nochanneling,combat] Chi Burst
+/cast [nochanneling,combat] Chi Burst
 
 /startattack [@playertarget,exists]
-/cast  [nochanneling,combat] Blackout Kick
+/cast [nochanneling,combat] Blackout Kick
 
