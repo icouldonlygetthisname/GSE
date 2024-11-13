@@ -1,3 +1,7 @@
 ## Opener ST
 
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Prowl
+
 
