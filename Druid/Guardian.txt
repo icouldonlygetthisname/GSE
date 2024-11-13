@@ -2,82 +2,75 @@
 
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
-/cast Growl
- 
-/cast Heart of the Wild 
+/cast [combat] Moonfire
 
 /startattack [@playertarget,exists]
-/cast Moonfire 
+/cast [combat] Growl
 
-/startattack [@playertarget,exists]
+/stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Thrash 
 
-/startattack [@playertarget,exists]
+/stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Mangle 
 
-/startattack [@playertarget,exists]
-/cast [combat] Thrash 
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Thrash
 
-/startattack [@playertarget,exists]
-/cast [combat] Rage of the Sleeper
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Moonfire
 
-/startattack [@playertarget,exists]
+/stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Maul
 
-/startattack [@playertarget,exists]
+/stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Maul
 
-/startattack [@playertarget,exists]
+/stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Maul 
 
-/startattack [@playertarget,exists]
+/stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Mangle 
 
-/startattack [@playertarget,exists]
-/cast [combat] Thrash 
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Thrash
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Moonfire
+
+/stopmacro [@playertarget,noexists,nocombat] 
 /cast [combat] Maul 
 
-/startattack [@playertarget,exists]
+/stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Maul 
 
-/startattack [@playertarget,exists]
+/stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Maul 
 
-/startattack [@playertarget,exists]
+/stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Mangle 
 
 ## ST Rotation 
 
-/startattack [@playertarget,exists]
+/stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Thrash
 
-/startattack [@playertarget,exists]
-/cast [combat] Maul 
-
-/startattack [@playertarget,exists]
-/cast [combat] Mangle 
-
-/startattack [@playertarget,exists]
-/cast [combat] Thrash
-
-/startattack [@playertarget,exists]
+/stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Moonfire
 
-/startattack [@playertarget,exists]
-/cast [combat] Thrash
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Maul 
 
-/startattack [@playertarget,exists]
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Mangle 
+
+/stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Swipe
 
 ### AOE Opener
 
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
-/cast Moonfire
-
-/targetenemy [noharm,dead,nocombat]
-/startattack [@playertarget,exists]
-/cast [combat] Barkskin
+/cast [combat] Moonfire
 
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
@@ -94,6 +87,10 @@
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
 /cast [combat] Thrash
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Moonfire
 
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
@@ -110,6 +107,10 @@
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
 /cast [combat] Thrash
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Moonfire
 
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
@@ -131,6 +132,10 @@
 
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
+/cast [combat] Moonfire
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
 /cast [combat] Mangle
 
 /targetenemy [noharm,dead,nocombat]
@@ -147,15 +152,15 @@
 
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
-/cast [combat] Mangle
-
-/targetenemy [noharm,dead,nocombat]
-/startattack [@playertarget,exists]
-/cast [combat] Mangle
-
-/targetenemy [noharm,dead,nocombat]
-/startattack [@playertarget,exists]
 /cast [combat] Moonfire
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Mangle
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Mangle
 
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
