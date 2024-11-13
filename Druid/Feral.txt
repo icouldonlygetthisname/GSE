@@ -94,4 +94,95 @@
 /cast [combat] Shred
 
 /stopmacro [@playertarget,noexists,nocombat]
-/cast [combat] Ferocious Bite             
+/cast [combat] Ferocious Bite
+
+### AOE Opener
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Thrash
+
+/startattack [@playertarget,exists]
+/cast [combat] Moonfire
+
+/startattack [@playertarget,exists]
+/cast [combat] Rake
+
+/startattack [@playertarget,exists]
+/cast [combat] Tiger's Fury
+
+/startattack [@playertarget,exists]
+/cast [known:202028,combat] 202028; [combat] Thrash
+
+/startattack [@playertarget,exists]
+/cast [combat] Rake
+
+/startattack [@playertarget,exists]
+/cast [combat] Primal Wrath
+
+### AOE Rotation
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Thrash
+
+/startattack [@playertarget,exists]
+/cast [combat] Moonfire
+
+/startattack [@playertarget,exists]
+/cast [combat] Rake
+
+/startattack [@playertarget,exists]
+/cast [combat] Tiger's Fury
+
+/startattack [@playertarget,exists]
+/cast [known:202028,combat] 202028; [combat] Thrash
+
+/startattack [@playertarget,exists]
+/cast [combat] Rake
+
+/startattack [@playertarget,exists]
+/cast [combat] Rip
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Thrash
+
+/startattack [@playertarget,exists]
+/cast [combat] Moonfire
+
+/startattack [@playertarget,exists]
+/cast [combat] Rake
+
+/startattack [@playertarget,exists]
+/cast [combat] Tiger's Fury
+
+/startattack [@playertarget,exists]
+/cast [known:202028,combat] 202028; [combat] Thrash
+
+/startattack [@playertarget,exists]
+/cast [combat] Rake
+
+/startattack [@playertarget,exists]
+/cast [known:441583,combat] 441583; [combat] Ferocious Bite
+
+/startattack [@playertarget,exists]
+/cast [combat] Thrash
+
+/startattack [@playertarget,exists]
+/cast [combat] Moonfire
+
+/startattack [@playertarget,exists]
+/cast [combat] Rake
+
+/startattack [@playertarget,exists]
+/cast [combat] Tiger's Fury
+
+/startattack [@playertarget,exists]
+/cast [known:202028,combat] 202028; [combat] Thrash
+
+/startattack [@playertarget,exists]
+/cast [combat] Rake
+
+/startattack [@playertarget,exists]
+/cast [combat] Primal Wrath
