@@ -96,7 +96,7 @@
 /startattack [@playertarget,exists]
 /cast [nochanneling,combat] Whirling Dragon Punch
 
-## Rotation
+## AOE Rotation
 
 /startattack [@playertarget,exists]
 /cast [nochanneling,combat] Tiger Palm 
