@@ -155,9 +155,6 @@
 /cast [combat] Rake
 
 /startattack [@playertarget,exists]
-/cast [combat] Tiger's Fury
-
-/startattack [@playertarget,exists]
 /cast [known:202028,combat] 202028; [combat] Thrash
 
 /startattack [@playertarget,exists]
