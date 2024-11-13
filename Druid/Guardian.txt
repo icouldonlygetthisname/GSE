@@ -87,38 +87,6 @@
 
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
-/cast [combat] Moonfire
-
-/targetenemy [noharm,dead,nocombat]
-/startattack [@playertarget,exists]
-/cast [combat] Mangle
-
-/targetenemy [noharm,dead,nocombat]
-/startattack [@playertarget,exists]
-/cast [combat] Mangle
-
-/targetenemy [noharm,dead,nocombat]
-/startattack [@playertarget,exists]
-/cast [combat] Raze
-
-/targetenemy [noharm,dead,nocombat]
-/startattack [@playertarget,exists]
-/cast [combat] Thrash
-
-/targetenemy [noharm,dead,nocombat]
-/startattack [@playertarget,exists]
-/cast [combat] Moonfire
-
-/targetenemy [noharm,dead,nocombat]
-/startattack [@playertarget,exists]
-/cast [combat] Mangle
-
-/targetenemy [noharm,dead,nocombat]
-/startattack [@playertarget,exists]
-/cast [combat] Mangle
-
-/targetenemy [noharm,dead,nocombat]
-/startattack [@playertarget,exists]
 /cast [combat] Raze
 
 ### AOE Rotation
@@ -137,8 +105,13 @@
 
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
+/cast [combat] Thrash 
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
 /cast [combat] Mangle
 
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
 /cast [combat] Raze
+
