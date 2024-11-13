@@ -4,4 +4,8 @@
 /startattack [@playertarget,exists]
 /cast [combat] Prowl
 
+/startattack [@playertarget,exists]
+/cast [combat] Rake
 
+
+/cast [combat] Brutal Slash
