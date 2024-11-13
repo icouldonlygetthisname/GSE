@@ -31,7 +31,7 @@
 /stopmacro [@playertarget,noexists,nocombat] 
 /cast [nochanneling,combat] Whirling Dragon Punch
 
-## Rotation
+## ST Rotation
 
 /stopmacro [@playertarget,noexists,nocombat] 
 /cast [nochanneling,combat] Tiger Palm
@@ -63,9 +63,7 @@
 /stopmacro [@playertarget,noexists,nocombat] 
 /cast [nochanneling,combat] Blackout Kick
 
-##AOE
-
-## Opener
+## Opener AOE
 
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
