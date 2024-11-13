@@ -75,6 +75,8 @@
 /stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Adaptive Swarm
 
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Rip
 
 
 
