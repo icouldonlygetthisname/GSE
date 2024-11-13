@@ -114,7 +114,13 @@
 /cast [nochanneling,combat] Strike of the Windlord
 
 /startattack [@playertarget,exists]
+/cast [nochanneling,combat] Crackling Jade Lightning
+
+/startattack [@playertarget,exists]
 /cast [nochanneling,combat] Fists of Fury
+
+/startattack [@playertarget,exists]
+/cast [nochanneling,combat] Storm, Earth, and Fire
 
 /startattack [@playertarget,exists]
 /cast [nochanneling,combat] Rising Sun Kick
