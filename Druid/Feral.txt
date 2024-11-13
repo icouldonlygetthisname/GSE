@@ -7,5 +7,50 @@
 /startattack [@playertarget,exists]
 /cast [combat] Rake
 
-
+/stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Brutal Slash
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Shred
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Shred
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Shred
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Adaptive Swarm
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Berserk
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Tiger's Fury
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Rip
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Shred
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Shred
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Shred
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Shred
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Shred
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Ravage
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Convoke the Spirits
+
+
+
