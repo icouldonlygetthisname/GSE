@@ -1,4 +1,4 @@
-## Opener ST
+### Opener ST
 
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
@@ -49,7 +49,7 @@
 /stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Mangle 
 
-## ST Rotation 
+### ST Rotation 
 
 /stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Thrash
@@ -62,9 +62,6 @@
 
 /stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Mangle 
-
-/stopmacro [@playertarget,noexists,nocombat]
-/cast [combat] Swipe
 
 ### AOE Opener
 
@@ -145,23 +142,3 @@
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
 /cast [combat] Raze
-
-/targetenemy [noharm,dead,nocombat]
-/startattack [@playertarget,exists]
-/cast [combat] Thrash
-
-/targetenemy [noharm,dead,nocombat]
-/startattack [@playertarget,exists]
-/cast [combat] Moonfire
-
-/targetenemy [noharm,dead,nocombat]
-/startattack [@playertarget,exists]
-/cast [combat] Mangle
-
-/targetenemy [noharm,dead,nocombat]
-/startattack [@playertarget,exists]
-/cast [combat] Mangle
-
-/targetenemy [noharm,dead,nocombat]
-/startattack [@playertarget,exists]
-/cast [combat] Swipe
