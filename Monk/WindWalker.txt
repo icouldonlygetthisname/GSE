@@ -60,6 +60,9 @@
 /cast [nochanneling,combat] Chi Burst
 
 /stopmacro [@playertarget,noexists,nocombat] 
+/cast [nochanneling,combat] Crackling Jade Lightning
+
+/stopmacro [@playertarget,noexists,nocombat] 
 /cast [nochanneling,combat] Blackout Kick
 
 ##AOE
