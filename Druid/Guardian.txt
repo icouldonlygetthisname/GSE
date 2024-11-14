@@ -11,6 +11,9 @@
 /cast [combat] Lunar Beam 
 
 /stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Rage of the Sleeper
+
+/stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Thrash 
 
 /stopmacro [@playertarget,noexists,nocombat]
@@ -46,6 +49,10 @@
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
 /cast [combat] Lunar Beam 
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Rage of the Sleeper 
 
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
@@ -87,6 +94,14 @@
 
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
+/cast [combat] Raze
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Moonfire
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
 /cast [combat] Thrash 
 
 /targetenemy [noharm,dead,nocombat]
@@ -95,5 +110,5 @@
 
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
-/cast [combat] Raze
+/cast [combat] Maul
 
