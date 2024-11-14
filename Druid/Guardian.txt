@@ -8,54 +8,28 @@
 /cast [combat] Growl
 
 /stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Lunar Beam 
+
+/stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Thrash 
 
 /stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Mangle 
 
 /stopmacro [@playertarget,noexists,nocombat]
-/cast [combat] Thrash
-
-/stopmacro [@playertarget,noexists,nocombat]
-/cast [combat] Moonfire
-
-/stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Maul
 
-/stopmacro [@playertarget,noexists,nocombat]
-/cast [combat] Maul
-
-/stopmacro [@playertarget,noexists,nocombat]
-/cast [combat] Maul 
-
-/stopmacro [@playertarget,noexists,nocombat]
-/cast [combat] Mangle 
-
-/stopmacro [@playertarget,noexists,nocombat]
-/cast [combat] Thrash
-
-/stopmacro [@playertarget,noexists,nocombat]
-/cast [combat] Moonfire
-
-/stopmacro [@playertarget,noexists,nocombat] 
-/cast [combat] Maul 
-
-/stopmacro [@playertarget,noexists,nocombat]
-/cast [combat] Maul 
-
-/stopmacro [@playertarget,noexists,nocombat]
-/cast [combat] Maul 
-
-/stopmacro [@playertarget,noexists,nocombat]
-/cast [combat] Mangle 
 
 ### ST Rotation 
 
 /stopmacro [@playertarget,noexists,nocombat]
-/cast [combat] Thrash
+/cast [combat] Moonfire
 
 /stopmacro [@playertarget,noexists,nocombat]
-/cast [combat] Moonfire
+/cast [combat] Lunar Beam 
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Thrash
 
 /stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Maul 
@@ -71,6 +45,10 @@
 
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
+/cast [combat] Lunar Beam 
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
 /cast [combat] Thrash
 
 /targetenemy [noharm,dead,nocombat]
@@ -79,11 +57,11 @@
 
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
-/cast [combat] Mangle
+/cast [combat] Thrash
 
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
-/cast [combat] Thrash
+/cast [combat] Mangle
 
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
@@ -93,11 +71,15 @@
 
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
-/cast [combat] Thrash
+/cast [combat] Lunar Beam 
 
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
 /cast [combat] Moonfire
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Thrash 
 
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
