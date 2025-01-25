@@ -63,67 +63,80 @@
 /startattack [@playertarget,exists]
 /cast [nochanneling,combat] Tiger Palm 
 
+/targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
 /cast [nochanneling,combat] Rising Sun Kick
 
+/targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
 /cast [nochanneling,combat] Tiger Palm
 
+/targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
 /cast [nochanneling,combat] Storm, Earth, and Fire
 
+/targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
 /cast [nochanneling,combat] Rising Sun Kick
 
+/targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists] 
 /cast [nochanneling,combat] Strike of the Windlord
 
+/targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
 /cast [nochanneling,combat] Tiger Palm
 
+/targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
 /cast [nochanneling,combat] Fists of Fury
 
+/targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists] 
 /cast [nochanneling,combat] Rising Sun Kick
 
+/targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
 /cast [nochanneling,combat] Whirling Dragon Punch
 
 ## AOE Rotation
 
+/targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
 /cast [nochanneling,combat] Tiger Palm 
 
+/targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
 /cast [nochanneling,combat] Spinning Crane Kick 
 
+/targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
 /cast [nochanneling,combat] Rising Sun Kick
 
+/targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
 /cast [nochanneling,combat] Whirling Dragon Punch
 
+/targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
 /cast [nochanneling,combat] Strike of the Windlord
 
-/startattack [@playertarget,exists]
-/cast [nochanneling,combat] Crackling Jade Lightning
-
+/targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
 /cast [nochanneling,combat] Fists of Fury
 
+/targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
 /cast [nochanneling,combat] Storm, Earth, and Fire
 
+/targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
 /cast [nochanneling,combat] Rising Sun Kick
 
+/targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
 /cast [nochanneling,combat] Spinning Crane Kick
 
-/startattack [@playertarget,exists]
-/cast [nochanneling,combat] Chi Burst
-
+/targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
 /cast [nochanneling,combat] Blackout Kick
