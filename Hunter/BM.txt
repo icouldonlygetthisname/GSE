@@ -39,13 +39,10 @@
 
 /stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Fortitude of the Bear
-/cast [combat] Claw; [combat] Bite; [combat] Smack
-/petattack [combat]
+
 
 /stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Call of the Wild 
-/cast [combat] Claw; [combat] Bite; [combat] Smack
-/petattack [combat]
 
 ### ST Rotation 
 
