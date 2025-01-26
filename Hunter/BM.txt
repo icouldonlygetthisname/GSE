@@ -39,7 +39,7 @@
 /petattack [combat]
 
 /stopmacro [@playertarget,noexists,nocombat]
-/cast [combat] Call of the Wild
+/cast [combat] Call of the Wild; [combat] Fortitude of the Bear
 /cast [combat] Claw; [combat] Bite; [combat] Smack
 /petattack [combat]
 
@@ -161,7 +161,7 @@
 
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
-/cast [combat] Call of the Wild; [combat] Multi-Shot
+/cast [combat] Call of the Wild; ; [combat] Fortitude of the Bear; [combat] Multi-Shot
 /cast [combat] Claw; [combat] Bite; [combat] Smack
 /petattack [combat]
 
