@@ -38,14 +38,29 @@
 /petattack [combat]
 
 /stopmacro [@playertarget,noexists,nocombat]
-/cast [combat] Call of the Wild; [combat] Fortitude of the Bear
+/cast [combat] Fortitude of the Bear
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Call of the Wild 
 /cast [combat] Claw; [combat] Bite; [combat] Smack
 /petattack [combat]
 
 ### ST Rotation 
 
 /stopmacro [@playertarget,noexists,nocombat]
-/cast [@target,help][@focus,exists,help][@player] Spirit Mend; Mend Pet; Spirit Pulse
+/cast [@target,help][@focus,exists,help][@player] Spirit Mend
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [@target,help][@focus,exists,help][@player] Mend Pet
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [@target,help][@focus,exists,help][@player] Spirit Pulse
 /cast [combat] Claw; [combat] Bite; [combat] Smack
 /petattack [combat]
 
@@ -75,7 +90,17 @@
 /petattack [combat]
 
 /stopmacro [@playertarget,noexists,nocombat]
-/cast [@target,help][@focus,exists,help][@player] Spirit Mend; Mend Pet; Spirit Pulse
+/cast [@target,help][@focus,exists,help][@player] Spirit Mend
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [@target,help][@focus,exists,help][@player] Mend Pet
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [@target,help][@focus,exists,help][@player] Spirit Pulse
 /cast [combat] Claw; [combat] Bite; [combat] Smack
 /petattack [combat]
 
@@ -117,7 +142,7 @@
 /cast [@cursor,nochanneling,combat] Implosive Trap
 
 ## Self-Heal
-/cast [combat] Survival of the Fittest; Exhilaration
+/cast [combat] Survival of the Fittest; [combat] Exhilaration
 
 ### AOE Opener
 
