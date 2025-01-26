@@ -14,7 +14,6 @@
 
 /stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Dire Beast
-/cast [combat] Black Arrow
 /cast [combat] Claw; [combat] Bite; [combat] Smack
 /petattack [combat]
 
