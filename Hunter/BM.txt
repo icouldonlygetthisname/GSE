@@ -128,8 +128,10 @@
 
 ## Boom
 
+/cast [combat] Fortitude of the Bear
+
 /startattack [@playertarget,exists]
-/cast [combat] Call of the Wild; [combat] Fortitude of the Bear
+/cast [combat] Call of the Wild
 /use l3
 /use l4
 
@@ -139,7 +141,9 @@
 /cast [@cursor,nochanneling,combat] Implosive Trap
 
 ## Self-Heal
-/cast [combat] Survival of the Fittest; [combat] Exhilaration
+/cast [combat] Survival of the Fittest
+
+/cast [combat] Exhilaration
 
 ### AOE Opener
 
@@ -153,6 +157,12 @@
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
 /cast [combat] Dire Beast
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Multi-Shot
 /cast [combat] Claw; [combat] Bite; [combat] Smack
 /petattack [combat]
 
@@ -180,9 +190,13 @@
 /cast [combat] Claw; [combat] Bite; [combat] Smack
 /petattack [combat]
 
+/cast [combat] Fortitude of the Bear
+
+/cast [combat] Call of the Wild
+
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
-/cast [combat] Call of the Wild; ; [combat] Fortitude of the Bear; [combat] Multi-Shot
+/cast [combat] Multi-Shot
 /cast [combat] Claw; [combat] Bite; [combat] Smack
 /petattack [combat]
 
@@ -196,7 +210,22 @@
 
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
-/cast [@target,help][@focus,exists,help][@player] Spirit Mend; Mend Pet; Spirit Pulse
+/cast [combat] Multi-Shot
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [@target,help][@focus,exists,help][@player] Spirit Mend
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [@target,help][@focus,exists,help][@player] Mend Pet
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [@target,help][@focus,exists,help][@player] Spirit Pulse
 /cast [combat] Claw; [combat] Bite; [combat] Smack
 /petattack [combat]
 
@@ -206,6 +235,7 @@
 /cast [combat] Claw; [combat] Bite; [combat] Smack
 /petattack [combat]
 
+/targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
 /cast [combat] Multi-Shot
 /cast [combat] Claw; [combat] Bite; [combat] Smack
@@ -229,15 +259,30 @@
 /cast [combat] Claw; [combat] Bite; [combat] Smack
 /petattack [combat]
 
-/targetenemy [noharm,dead,nocombat]
-/startattack [@playertarget,exists]
-/cast [@target,help][@focus,exists,help][@player] Spirit Mend; Mend Pet; Spirit Pulse
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [@target,help][@focus,exists,help][@player] Spirit Mend
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [@target,help][@focus,exists,help][@player] Mend Pet
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [@target,help][@focus,exists,help][@player] Spirit Pulse
 /cast [combat] Claw; [combat] Bite; [combat] Smack
 /petattack [combat]
 
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
 /cast [combat] Kill Command
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Multi-Shot
 /cast [combat] Claw; [combat] Bite; [combat] Smack
 /petattack [combat]
 
