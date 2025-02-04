@@ -1,0 +1,31 @@
+### Opener ST
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast Immolation Aura
+
+/startattack [@playertarget,exists]
+/cast [@cursor,nochanneling] Sigil of Flame
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] The Hunt
+
+/use Fleeting Tempered Potion
+/use 13
+/use 14
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Felblade
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Eye Beam
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Fel Rush
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Death Sweep
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Annhihilation
+
