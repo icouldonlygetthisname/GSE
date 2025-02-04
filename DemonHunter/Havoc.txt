@@ -238,4 +238,7 @@
 /startattack [@playertarget,exists]
 /cast [combat] Glavie Tempest
 
-### 
+### AOE Rotation
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
