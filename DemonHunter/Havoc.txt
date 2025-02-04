@@ -68,7 +68,91 @@
 /stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Annhihilation
 
+### ST Rotation 
 
+/stopmacro [@playertarget,noexists,nocombat]
+/cast Immolation Aura
 
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Fel Rush
 
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Vengeful Retreat
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] The Hunt
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Essence Break
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Death Sweep
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Eye Beam
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Blade Dance
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Annhihilation
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast Glavie Tempest
+
+/startattack [@playertarget,exists]
+/cast [@cursor,nochanneling] Sigil of Flame
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Felblade
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Chaos Strike
+
+## ST Metamorphosis
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Metamorphosis
+/use Fleeting Tempered Potion
+/use 13
+/use 14
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Consuming Fire
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Vengeful Retreat
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] The Hunt
+
+/startattack [@playertarget,exists]
+/cast [@cursor,nochanneling] Sigil of Doom
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Essence Break
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Death Sweep
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Abyssal Gaze
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Blade Dance
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Annhihilation
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast Glavie Tempest
+
+/startattack [@playertarget,exists]
+/cast [@cursor,nochanneling] Sigil of Flame
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Felblade
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Chaos Strike
 
