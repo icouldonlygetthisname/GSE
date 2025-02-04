@@ -37,11 +37,8 @@
 /cast [combat] Claw; [combat] Bite; [combat] Smack
 /petattack [combat]
 
-/stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Fortitude of the Bear
 
-
-/stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Call of the Wild 
 
 ### ST Rotation 
