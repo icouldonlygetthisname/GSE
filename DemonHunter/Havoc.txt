@@ -98,7 +98,7 @@
 /cast [combat] Annhihilation
 
 /stopmacro [@playertarget,noexists,nocombat]
-/cast Glavie Tempest
+/cast [combat] Glavie Tempest
 
 /startattack [@playertarget,exists]
 /cast [@cursor,nochanneling] Sigil of Flame
@@ -173,3 +173,69 @@
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
 /cast [combat] Fel Rush
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast Immolation Aura
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Fel Rush
+
+/use Fleeting Tempered Potion
+/use 13
+/use 14
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Eye Beam
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Annhihilation
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Essence Break
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Death Sweep
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Vengeful Retreat
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Metamorphosis
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Death Sweep
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Annhihilation
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [@cursor,nochanneling] Sigil of Doom
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Consuming Fire
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Fel Rush
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Abyssal Gaze
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Glavie Tempest
+
+### 
