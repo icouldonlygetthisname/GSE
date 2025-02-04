@@ -156,3 +156,20 @@
 /stopmacro [@playertarget,noexists,nocombat]
 /cast [combat] Chaos Strike
 
+### AOE Opener
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast Immolation Aura
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] The Hunt
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [@cursor,nochanneling] Sigil of Flame
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Fel Rush
