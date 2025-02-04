@@ -143,6 +143,7 @@
 /cast [@cursor,nochanneling,combat] Implosive Trap
 
 ## Self-Heal
+
 /cast [combat] Survival of the Fittest
 
 /cast [combat] Exhilaration
