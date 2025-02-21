@@ -1,0 +1,1 @@
+The Havoc rotation is too difficult to use sucessfully due to the movement involved.
