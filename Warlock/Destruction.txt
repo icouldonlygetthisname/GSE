@@ -4,4 +4,24 @@
 /startattack [@playertarget,exists]
 /startattack [@playertarget,exists]
 /cast [combat] Incinerate 
-/petattack
+/petattack [combat]
+
+/stopmacro [@playertarget,noexists,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Immolate
+/petattack [combat]
+
+/stopmacro [@playertarget,noexists,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Summon Infernal
+/petattack [combat]
+
+/stopmacro [@playertarget,noexists,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Conflagarate
+/petattack [combat]
+
+/stopmacro [@playertarget,noexists,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Shadowburn
+
