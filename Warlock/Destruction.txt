@@ -2,5 +2,6 @@
 
 /targetenemy [noharm,dead,nocombat]
 /startattack [@playertarget,exists]
+/startattack [@playertarget,exists]
 /cast [combat] Incinerate 
-
+/petattack
