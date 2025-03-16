@@ -1,0 +1,195 @@
+## Opener ST
+
+/cast [@pet,dead] Revive Pet
+/cast [nopet,nodead] Call Pet 1
+/targetenemy [noharm][dead]
+/startattack [@playertarget,exists]
+/cast [nochanneling,combat] Barbed Shot
+/petautocaston [nogroup] Growl
+/petautocastoff [group] Growl
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Barbed Shot
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Bestial Wrath
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Kill Command
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Kill Command
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/cast [combat] Fortitude of the Bear
+
+/cast [combat] Call of the Wild 
+
+### ST Rotation 
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [@target,help][@focus,exists,help][@player] Spirit Mend
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Bestial Wrath
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Barbed Shot
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [@target,help][@focus,exists,help][@player] Mend Pet
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Kill Command
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Barbed Shot
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [@target,help][@focus,exists,help][@player] Spirit Pulse
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/stopmacro [@playertarget,noexists,nocombat]
+/cast [combat] Cobra Shot
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+## Boom
+
+/cast [combat] Fortitude of the Bear
+
+/cast [combat] Call of the Wild
+/use Tempered Potion
+/use l3
+/use l4
+
+## CDs 
+
+/startattack [@playertarget,exists]
+/cast [@cursor,nochanneling,combat] Implosive Trap
+
+## Self-Heal
+
+/cast [combat] Survival of the Fittest
+
+/cast [combat] Exhilaration
+
+### AOE Opener
+
+/cast [@pet,dead] Revive Pet
+/cast [nopet,nodead] Call Pet 1
+/targetenemy [noharm][dead]
+/startattack [@playertarget,exists]
+/cast [nochanneling,combat] Barbed Shot
+/petautocaston [nogroup] Growl
+/petautocastoff [group] Growl
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Multi-Shot
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Barbed Shot
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Bestial Wrath
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/cast [combat] Fortitude of the Bear
+
+/cast [combat] Call of the Wild
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Kill Command
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Multi-Shot
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Kill Command
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Explosive Shot
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+### AOE Rotation
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Bestial Wrath
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Barbed Shot
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Multi-Shot
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Kill Command
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Barbed Shot
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Cobra Shot
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
+
+/targetenemy [noharm,dead,nocombat]
+/startattack [@playertarget,exists]
+/cast [combat] Explosive Shot
+/cast [combat] Claw; [combat] Bite; [combat] Smack
+/petattack [combat]
