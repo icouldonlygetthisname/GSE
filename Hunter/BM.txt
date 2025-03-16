@@ -132,7 +132,6 @@
 
 /cast [combat] Fortitude of the Bear
 
-/startattack [@playertarget,exists]
 /cast [combat] Call of the Wild
 /use l3
 /use l4
